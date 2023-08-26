@@ -4,6 +4,7 @@ import { Grid, Stack, Button } from "@mui/material";
 
 import TrandiBanner from "@/components/allBanners/headphone";
 import Tshirt from "@/components/allBanners/tShirt";
+import IPhone from "@/components/allBanners/iPhone";
 export default function StarredPage() {
   return (
     <Box>
@@ -15,6 +16,9 @@ export default function StarredPage() {
           <Tshirt />
         </Grid>
       </Grid>
+      <Box mt={5}>
+        <IPhone />
+      </Box>
     </Box>
   );
 }

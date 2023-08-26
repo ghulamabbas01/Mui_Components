@@ -90,16 +90,16 @@ const nanLinks = [
     name: "All Banner",
   },
   {
-    path: "shop",
-    name: "Shop",
+    path: "/bannerslider",
+    name: "Banner Slider",
   },
   {
-    path: "cart",
-    name: "Card",
+    path: "/lists",
+    name: "Lists and Icons",
   },
   {
-    path: "about",
-    name: "About",
+    path: "/dropdown",
+    name: "Drop Down",
   },
   {
     path: "contact",

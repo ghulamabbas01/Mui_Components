@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import { Grid, Stack, Button, Box } from "@mui/material";
 import Image from "next/image";
 
-import banner1 from "../../../../public/images/yellow-shirt.svg";
+import IPhoneImg from "../../../../public/images/apple-iphone-14-pro.svg";
 import RootStyled from "./styled";
 
 export default function StarredPage() {
@@ -22,15 +22,28 @@ export default function StarredPage() {
             alignItems="center"
             justifyContent="center">
             <Stack spacing={1}>
-              <Typography variant="subtitle1" color="gray[600]">
-                EXPLORE NEW ARRIVED
+              <Typography
+                variant="subtitle1"
+                color="gray[600]"
+                textTransform="uppercase">
+                FOR YOUR COMFORT
               </Typography>
-              <Typography variant="h3" color="initial">
-                Shop the latest from top brands
+              <Typography
+                variant="h1"
+                color="initial"
+                textTransform="capitalize">
+                I Phone 14 pro Max
+              </Typography>
+              <Typography variant="body1" color="gray">
+                Introducing the epitome of innovation and luxury - the iPhone 14
+                Pro Max. Immerse yourself in a world of cutting-edge technology,
+                reimagined design, and unrivaled performance. Boasting a
+                stunning Super Retina XDR display, the iPhone 14 Pro Max brings
+                your visuals to life with unprecedented clarity and vibrancy.
               </Typography>
               <Box>
                 <Button variant="contained" size="large">
-                  Show Me All
+                  Explore Now
                 </Button>
               </Box>
             </Stack>
@@ -41,7 +54,7 @@ export default function StarredPage() {
             xs={12}
             textAlign={{ md: "end", xs: "center" }}
             mt={{ xs: 3, md: 0 }}>
-            <Image src={banner1} alt="" />
+            <Image src={IPhoneImg} alt="" />
           </Grid>
         </Grid>
       </Stack>

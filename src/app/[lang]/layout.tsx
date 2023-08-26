@@ -102,8 +102,8 @@ const nanLinks = [
     name: "Drop Down",
   },
   {
-    path: "contact",
-    name: "Contact Us",
+    path: "/cards",
+    name: "All Card",
   },
 ];
 
